@@ -85,9 +85,9 @@ export class ThemeModule {
       providers: [
         ...NbThemeModule.forRoot(
           {
-            name: 'material-dark',
+            name: 'material-light',
           },
-          [ MATERIAL_DARK_THEME ],
+          [ MATERIAL_DARK_THEME, MATERIAL_LIGHT_THEME ],
         ).providers,
       ],
     };
