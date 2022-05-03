@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { NbMenuModule } from '@nebular/theme';
+import { NbCardModule, NbMenuModule } from '@nebular/theme';
 import { RouterModule } from '@angular/router';
 import { ThemeModule } from '../@theme/theme.module';
 import { PagesComponent } from './pages.component';
@@ -13,7 +13,8 @@ import { HolamundoComponent } from './holamundo/holamundo.component';
     DashboardModule,
     PagesRoutingModule,
     ThemeModule,
-    NbMenuModule
+    NbMenuModule,
+    NbCardModule,
   ],
   declarations: [
     PagesComponent,

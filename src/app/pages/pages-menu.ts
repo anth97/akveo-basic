@@ -2,43 +2,77 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'E-commerce',
-    icon: 'shopping-cart-outline',
+    title: 'Inicio',
+    icon: 'home-outline',
     link: '/pages/dashboard',
     home: true,
   },
-  {
-    title: 'IoT Dashboard',
+  /* {
+    title: 'Inicio',
     icon: 'home-outline',
     link: '/pages/iot-dashboard',
-  },
+  } */
   {
-    title: 'FEATURES',
+    title: 'Registro',
     group: true,
   },
-  
+
   {
-    title: 'Forms',
+    title: 'Mantenimiento',
     icon: 'edit-2-outline',
     children: [
       {
-        title: 'Form Inputs',
+        title: 'Registro de Usuarios',
         link: '/pages/forms/inputs',
       },
       {
-        title: 'Form Layouts',
+        title: 'Registro de Sede',
         link: '/pages/forms/layouts',
       },
+    ],
+  },
+  {
+    title: 'Registro',
+    icon: 'book-outline',
+    children: [
       {
-        title: 'Buttons',
-        link: '/pages/forms/buttons',
+        title: 'Registro de Software',
+        link: '/pages/forms/inputs',
       },
       {
-        title: 'Datepicker',
-        link: '/pages/forms/datepicker',
+        title: 'Registro de Hardware',
+        link: '/pages/forms/layouts',
       },
     ],
-  },  
+  },
+  {
+    title: 'Reportes',
+    icon: 'file-text-outline',
+    children: [
+      {
+        title: 'Registro de Software',
+        link: '/pages/forms/inputs',
+      },
+      {
+        title: 'Registro de Hardware',
+        link: '/pages/forms/layouts',
+      },
+    ],
+  },
+  {
+    title: 'Transferencias',
+    icon: 'repeat-outline',
+    children: [
+      {
+        title: 'Registro de Software',
+        link: '/pages/forms/inputs',
+      },
+      {
+        title: 'Registro de Hardware',
+        link: '/pages/forms/layouts',
+      },
+    ],
+  }, 
   {
     title: 'Auth',
     icon: 'lock-outline',
